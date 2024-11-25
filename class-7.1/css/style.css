@@ -1,0 +1,33 @@
+.link{
+    color: #785;
+    text-decoration: none;
+    background-color: bisque;
+    padding:20px;
+    margin: 15px;
+    border-radius: 10px;
+    line-height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.link:hover{
+    color: blue;
+    text-decoration: underline;
+    background-color:fuchsia;
+}
+
+.link:visited{
+    color: rgb(157, 197, 184);
+}
+
+.link:active{
+    color: brown;
+}
+
+body{
+    background-image: url('../images/class-3.jpg');
+    background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}

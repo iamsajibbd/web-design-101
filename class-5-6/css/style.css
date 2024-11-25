@@ -1,0 +1,19 @@
+.h1{
+    font-size: 50px ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-style: italic;
+    color: aquamarine;
+    background-color: azure;
+    align-items: center;
+    text-align: center;
+    
+}
+h1{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    border-radius:10px ;
+    color: chocolate; text-align:center;  margin: auto;  font-size: 20px; font-weight: 400;
+    
+}
