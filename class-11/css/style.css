@@ -1,0 +1,51 @@
+.main{
+    padding: 30px;
+    background-color: #f3f3f3;
+    }
+    
+    .header{
+    background-color: #babac3;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    }
+    
+    .content-body{
+    width: 100%;
+    
+    }
+    
+    .sidebar{
+    float: left;
+    background-color: #a6a6a6;
+     height: 700px; 
+    width: 25%;
+    }
+    
+    .sidebar ul li {
+    list-style: none;
+    }
+    
+
+    .content-area img{
+        width: 75%;
+        
+    }
+    
+    .content{
+        
+        background-color: #e2e2e2;
+         padding: 50px; 
+        /* width: 90%; */
+        height: 100%; 
+        text-align: center;
+        
+    }
+    
+    .footer{
+    clear: both;
+    background-color: #babac3;
+    padding: 15px;
+    text-align: center;
+    }
