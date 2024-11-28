@@ -1,0 +1,29 @@
+.common-style{
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 10px;
+     float: left;
+    
+   
+}
+
+.sojib{
+    background-color: blue;
+    /* padding: 20px;
+    text-align: center; */
+}  
+.saju{
+    background-color: aquamarine;
+    
+}
+.raju{
+    background-color: blueviolet;
+    
+}
+
+.zahid{
+    background-color: brown;
+     clear: left;
+}
