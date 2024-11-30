@@ -1,0 +1,33 @@
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: brown;
+}
+
+
+.box-1{
+    position: relative;
+    background-color: blueviolet;
+    color: azure;
+    height: 500px ;
+    width: 800px;
+    left: 100px;
+    top: 100px;
+}    
+
+.box-2{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: blue;
+    height: 200px;
+    width: 400px;
+}
+
+.box-2 h1{
+    text-align: center;
+   margin-top: 20%;
+   margin-bottom: 90%;
+}
+/* vai box2 moradhe ami h1 use korchi oi ta top or bottom use kare ki vibe  middle point a anbo  */

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form-Input Attribute</title>
+</head>
+<body>
+    <h1>HTML Form-Input Type</h1>
+
+    <form>
+       <div style="margin-bottom: 20px;">
+        <label for="name" >Facebook id</label>
+        <input id="name" type="text" value="" disabled>
+        <!-- disabled ar use korle from ar mordhe kichu type korte parbo na amra  -->
+       </div>
+
+       <div style="margin-bottom: 20px;">
+        <label for="password" >Your Name</label>
+        <input id="password" type="password" value="dddddddd" readonly>
+       </div>
+
+       <div style="margin-bottom: 20px;">
+        <label for="password" >Id pin</label>
+        <input id="password" type="text" value="" size="8" maxlength="10" minlength="2">
+       </div>
+
+       <div style="margin-bottom: 20px;">
+        <label for="color" >Select color</label>
+        <input id="color" type="color">
+       </div>
+
+       <div style="margin-bottom: 20px;">
+        <label for="date" >Select date</label>
+        <input id="date" type="date">
+       </div>
+
+       <div style="margin-bottom: 20px;">
+        <label for="date2" >Select date from this week only</label>
+        <input id="date2" type="date" min="2024-12-15">
+       </div>
+
+       <div style="margin-bottom: 20px;">
+        <label for="date3" >Select date from this week only</label>
+        <input id="date3" type="datetime-local" max="2024-10-18" >
+       </div>
+       
+       <div style="margin-bottom: 20px;">
+        <label for="email" >Select  this email</label>
+        <input id="email" type="email" max="2024-10-18" >
+       </div>
+
+       <div style="margin-bottom: 20px;">
+        <label for="file" >Choose an image</label>
+        <input id="file" type="file">
+       </div>
+       <button type="submit">submit</button>
+
+    </form>
+</body>
+</html>
