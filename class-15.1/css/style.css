@@ -5,10 +5,11 @@
     margin: 0;
     font-size: 16px;
     color: #000;
+    
 }
-body{
+/* body{
     background-color: #ededed;
-}
+} */
 
 .header .topbar{
     background:#111827 ;
@@ -136,3 +137,119 @@ border-radius: 8px;
 margin-top: 16px;
 font-family: "Inter", sans-serif;
 }
+
+.collections{
+    margin-top: -240px;
+}
+.collection-list{
+    display: flex;
+    gap: 32px;
+}
+
+.collection-item{
+     width: calc(100% / 3); 
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.collection-item img{
+    max-width: 100%;
+    height: 100%;
+}
+   
+.collection-item-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, transparent, #000);
+    opacity: 0.5;
+}
+
+.collection-item:hover > img{
+    opacity: 0.75;
+}
+
+.collection-item-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 24px;
+}
+
+.collection-item-text,
+ .collection-item-name{
+    color: #fff;
+ }
+ .collection-item-text{
+    margin-bottom: 8px;
+ }
+  
+ .products{
+    margin-top: 120px;
+ }
+
+ .products-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+ }
+
+ .products-header-title{
+    font-size: 24px;
+    font-weight: bold;
+ }
+
+ .products-header-link{
+    text-decoration: none;
+    color: #4f46e5;
+ }
+ .products-header-link:hover{
+    opacity: 0.75;
+ }
+
+ .product-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+ }
+ .product-item{
+    width:  calc((100% - 96px) / 4);
+    overflow: hidden;
+ }
+
+ .product-item-img{
+    height: 280px;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #fff;
+ }
+ .product-item-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+ }
+ .product-item:hover > .product-item-img > img{
+    opacity: 0.75;
+ }
+
+ .product-item-content{
+    margin-top: 13px;
+ }
+
+ .product-item-name{
+margin-bottom: 8px;
+ }
+
+ .product-item-cat{
+margin-bottom: 8px;
+color: #868686;
+ }
+
+ .product-item-price{
+    font-weight: 500;
+ }
