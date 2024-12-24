@@ -253,3 +253,99 @@ color: #868686;
  .product-item-price{
     font-weight: 500;
  }
+
+.service-footer{
+    background-color: #f9fafb;
+    margin-top: 120px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.service-list{
+    display: flex;
+    gap: 32px ;
+}
+
+.service{
+    padding: 120px 0;
+}
+
+.service-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-item-icon{
+    width: 112px;
+    height: 96px;
+    margin-bottom: 24px;
+
+}
+
+.service-item-desc{
+    text-align: center;
+    font-size: 14px;
+    color: #6e6d6d;
+}
+
+.service-item-title{
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+/* .footer{
+  
+} */
+
+.footer-top{
+    display: flex;
+    gap: 32px;
+    padding: 120px 0;
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.footer-top-item{
+    width: calc((100% - 96px) / 4);
+}
+
+.footer-top-title{
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.footer-top-list{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer-top-list-item{
+    margin-bottom: 20px;
+}
+.footer-top-list-item a{
+    color: #6a6a6a;
+    text-decoration: none;
+    font-size: 14px;
+   
+}
+
+.footer-top-logo img{
+    width: 120px;
+    margin-bottom: 24px;
+}
+
+.footer-top-logo-title{
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.footer-top-logo-desc{
+color: #6a6a6a;
+font-size: 14px;
+}
+
+.footer-bottom{
+    padding: 32px;
+    color: #6a6a6a;
+    font-size: 14px;
+    text-align: center;
+}
