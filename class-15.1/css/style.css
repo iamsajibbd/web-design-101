@@ -293,9 +293,9 @@ color: #868686;
     font-weight: 500;
 }
 
-/* .footer{
-  
-} */
+ /* .footer{
+    
+}  */
 
 .footer-top{
     display: flex;
@@ -303,6 +303,7 @@ color: #868686;
     padding: 120px 0;
     border-top: 1px solid #e5e7eb;
     border-bottom: 1px solid #e5e7eb;
+    
 }
 
 .footer-top-item{

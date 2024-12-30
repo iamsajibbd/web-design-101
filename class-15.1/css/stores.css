@@ -100,20 +100,21 @@ height: 24px;
 }
 
 .bannner-background{
-    background-color: #f9fafb;
+    /* background-color: #f9fafb; */
+    
+
     
    
 }
 
 .banner-content{
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 272px;
-    gap: 15px;
     font-family: 'Inter', 'InterFallback', sans-serif;
-    border-bottom: 1px solid #b8b8b9;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    
     
 }
 
@@ -121,178 +122,147 @@ height: 24px;
     font-weight: 700;
     font-size: 36px;
     
+    
 }
 
 .banner-pragraph{
-    font-size: 19px;
-    color: #6b7280;
-
-}
-
-.select-container{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
-    
-    
-    
-}
-
-.select-area-1{
-    border: 0;
-    background-color: #fff;
-    width: 50px;
-    color: #545457;
-}
-.select-area-1:hover{
-    color: #111827;
-}
-
-.select-area-2{
-
-    border: 0;
-    background-color: #fff;
-    padding: 0 17px;
-    color: #545457;
-    
-}
-
-.select-area-2:hover{
-    color: #111827;
-}
-
-
-
-.product-image{
-    display: flex;
-    flex-wrap: wrap;
-     padding: 80px 0;  
-    gap: 20px;
-
-   
-   
-}
-
-.product-item{
-      width: calc((100% - 60px ) / 3);  
-      /* flex-basis: 33px;   */
-     overflow: hidden;
-}
-
-.product-item:hover .product-area img{
-    opacity: 0.75;
-}
-.product-area img{
-      max-width: 100%; 
-      border-radius: 20px; 
-}
-
-
-.image-heading{
-    display: flex;
-    justify-content: space-between;
-  
-}
- .product-munber{
-    display: flex;
-}
-.product-munber h2{
-    font-style: italic;
-    font-size: 18px;
-    font-weight: 400;
-    color: #9c9c9e;
-
-}
-
-.image-heading p{
-    font-weight: 700;
-    font-size: 20px;
-    padding: 5px 0;
-   
-}
-.image-heading  h1{
-    font-family: "__Inter_d65c78", "__Inter_Fallback_d65c78", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    padding: 5px 0;
-    color: #474849;
-}
-
-.collection-background{
-    background-image: url('../images/featured-collection.jpg');
-    background-position: center 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 423px;
-    position: relative;
-    /* background-color: #000; */
-}
-
-
-.collection-menu{
-    display: flex;
-    flex-wrap: wrap;
-     padding: 80px 0;  
-    flex-direction: column;
-    width: 35%;
-    height:63%;
-    background-image: linear-gradient(to bottom, transparent, #000000);
-    opacity: 0.75;
-}
-.collection-link{
-    width: calc(100% / 1); 
-    position: relative;
-   
-}
-
-
-/* .collection-image img{
-    width: 100%;
-    height: 30rem;
-} */
-
-.collection-heading{
-    position: absolute;
-    top: 10px;
-    left: 15px;
     font-size: 15px;
-}
-.collection-heading h1{
-    font-size: 25px;
-    font-weight: 600;
-    color: #eceef0;
-    margin-bottom: 10px;
-}
-.collection-heading p{
-    font-size: 18px;
-    width: 400px;
-    color: #eef5f5;
+    color: #6b7280;
+    margin-top: 30px;
+    
+
 }
 
- .button {
-    position: absolute;
-    left: 15px;
-    top: 260px;
-    text-align: center;
-    justify-content: center;
+.contact-area{
+    display: flex;
+    gap: 50px;
+    padding: 80px 0;
+  
+    
+}
+
+.contact-list{
     margin-left: auto;
     margin-right: auto;
+}
+.contact-menu{
+        margin-bottom: auto;
+        margin-top: auto;
+}
+
+.contact-menu h1{
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+
+.contact-menu p{
+    width: 300px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 15px;
+    color: #6b7280;
+}
+
+.contact-menu button{
+    margin-top: 20px;
+    width: 120px;
+    height: 43px;
+    border: 0;
+    background-color: rgb(77, 77, 224);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.contact-mail-list-item{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+     padding: 80px 0;  
+    /* justify-content: space-between; */
+   
+}
+
+.contact-mail-area{
+    width: calc((100% - 60px ) / 2);
+    height: 168px;
+    width: 401px;
+    background-color: #f9fafb;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.contact-mail-area p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
     
 }
-button{
-    background-color: #2c2e2e;     
-      background-image: linear-gradient(to bottom, transparent, #585656); 
-     opacity: 0.75;
-    color: #fff; 
-    height: 50px;
-    width: 300px;
-    border-radius: 10px;  
-    border: 1px solid #787979;
-} 
 
-button:hover{
-opacity: 0.75;
-background-color: #4b4b4b;   
+.contact-mail-area a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: rgb(66, 66, 224);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.contact-mail-area h3{
+    color: #6b7280;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.location-area{
+    border-top: 1px solid #e5e7eb;
+    padding: 80px 0;
+}
+.location-menu{
+    margin-bottom: 20px;
+}
+
+.location-menu h1{
+    font-size: 29px;
+    font-weight: 900;
+    margin-bottom:10px ;
+}
+.location-menu p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 500px;
+    color: #6b7280;
+    line-height: 25px;
+}
+
+.country-location{
+    display: flex;
+    gap: 140px;
+    margin-top: 50px;
+    
+}
+
+
+.countary-location-item {
+    border-left: 1px solid #b2bbcc;
+    margin-left: 10px;
+    margin-top: 36px;
+   
+}
+
+.countary-location-item h1{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+.countary-location-item p{
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 5px 0;
+    color: #6b7280;
 }
 
 
